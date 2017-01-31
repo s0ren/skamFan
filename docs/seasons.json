@@ -1,0 +1,236 @@
+{
+  "Items": [
+    {
+      "SeasonNumber": 1,
+      "Episodes": {
+        "Items": [
+          {
+            "Description": "Norsk dramaserie.\nDen norske ungdomsserie Skam er blevet en kæmpesucces i hjemlandet. Nu kan du følge den på DR3.\nEva er lige begyndt på gymnasiet. Hun har ikke særlig mange venner, men beslutter at tage ansvar for sit eget liv. Så hun begynder at opsøge steder og mennesker, der kan give hende nye impulser og nye venskaber.",
+            "ProductionNumber": "00921616400",
+            "PrimaryBroadcastStartTime": "2016-12-24T06:55:00Z",
+            "PrimaryBroadcast": {
+              "BroadcastDate": "2016-12-24T00:00:00Z",
+              "AnnouncedStartTime": "2016-12-24T06:55:00Z",
+              "AnnouncedEndTime": "2016-12-24T07:15:00Z",
+              "ProductionCountry": "NORGE",
+              "ProductionYear": 2016,
+              "VideoWidescreen": true,
+              "VideoHD": true,
+              "WhatsOnUri": "dr.dk/mas/whatson/1098662852813",
+              "Channel": "dr.dk/mas/whatson/channel/DR3",
+              "ChannelSlug": "dr3",
+              "IsRerun": false
+            },
+            "Chapters": [],
+            "SecondaryAssets": [
+              {
+                "Kind": "VideoResource",
+                "Uri": "http://www.dr.dk/mu-online/api/1.3/bar/58406d266187a41260532b41",
+                "DurationInMilliseconds": 1166280,
+                "Downloadable": false,
+                "RestrictedToDenmark": true,
+                "StartPublish": "2017-01-04T13:00:00Z",
+                "EndPublish": "2017-02-02T22:59:00Z",
+                "Target": "SpokenSubtitles",
+                "Encrypted": false
+              }
+            ],
+            "Type": "ProgramCard",
+            "SeriesTitle": "Skam",
+            "SeriesSlug": "skam",
+            "SeriesUrn": "urn:dr:mu:bundle:582f03846187a416740499ab",
+            "SeasonTitle": "SKAM",
+            "SeasonSlug": "skam-2",
+            "SeasonUrn": "urn:dr:mu:bundle:582f03846187a416740499ad",
+            "PrimaryChannel": "dr.dk/mas/whatson/channel/DR3",
+            "PrimaryChannelSlug": "dr3",
+            "PrePremiere": false,
+            "ExpiresSoon": true,
+            "OnlineGenreText": "",
+            "PrimaryAsset": {
+              "Kind": "VideoResource",
+              "Uri": "http://www.dr.dk/mu-online/api/1.3/bar/5846bac7a11f9f0f0c2f9d9e",
+              "DurationInMilliseconds": 1166280,
+              "Downloadable": false,
+              "RestrictedToDenmark": true,
+              "StartPublish": "2017-01-04T13:00:00Z",
+              "EndPublish": "2017-02-02T22:59:00Z",
+              "Target": "Default",
+              "Encrypted": false
+            },
+            "HasPublicPrimaryAsset": true,
+            "AssetTargetTypes": "Default SpokenSubtitles",
+            "Slug": "skam-1-11",
+            "Urn": "urn:dr:mu:programcard:582f03846187a416740499a9",
+            "PrimaryImageUri": "http://www.dr.dk/mu-online/api/1.3/bar/58404d376187a41260532a94",
+            "PresentationUri": "https://www.dr.dk/tv/se/skam/skam-2/skam-1-11",
+            "Title": "Skam (1:11)"
+          }
+        ],
+        "Paging": {
+          "Source": "http://www.dr.dk/mu-online/api/1.3/list/view/season?id=skam-2&limit=1",
+          "Next": "http://www.dr.dk/mu-online/api/1.3/list/view/season?id=skam-2&limit=1&offset=1"
+        },
+        "TotalSize": 11
+      },
+      "Type": "Bundle",
+      "BundleType": "Season",
+      "Slug": "skam-2",
+      "Urn": "urn:dr:mu:bundle:582f03846187a416740499ad",
+      "PrimaryImageUri": "http://www.dr.dk/mu-online/api/1.3/bar/helper/get-image-for-bundle/skam-2",
+      "Title": "SKAM"
+    },
+    {
+      "SeasonNumber": 2,
+      "Episodes": {
+        "Items": [
+          {
+            "Description": "Norsk dramaserie.\nPigerne er begyndt på et nyt semester. Vilde er stadig vild med William. Hun ved ikke, at han bager heftigt på Noora.",
+            "ProductionNumber": "00921616510",
+            "PrimaryBroadcastStartTime": "2016-12-12T16:00:00Z",
+            "PrimaryBroadcast": {
+              "BroadcastDate": "2016-12-12T00:00:00Z",
+              "AnnouncedStartTime": "2016-12-12T16:00:00Z",
+              "AnnouncedEndTime": "2016-12-12T16:25:00Z",
+              "ProductionCountry": "NORGE",
+              "ProductionYear": 2016,
+              "VideoWidescreen": true,
+              "VideoHD": true,
+              "WhatsOnUri": "dr.dk/mas/whatson/1098500798813",
+              "Channel": "dr.dk/mas/whatson/channel/DR3",
+              "ChannelSlug": "dr3",
+              "IsRerun": false
+            },
+            "Chapters": [],
+            "SecondaryAssets": [
+              {
+                "Kind": "VideoResource",
+                "Uri": "http://www.dr.dk/mu-online/api/1.3/bar/584ef0626187a410ec49a624",
+                "DurationInMilliseconds": 1544320,
+                "Downloadable": false,
+                "RestrictedToDenmark": true,
+                "StartPublish": "2017-01-04T13:00:00Z",
+                "EndPublish": "2017-02-02T22:59:00Z",
+                "Target": "SpokenSubtitles",
+                "Encrypted": false
+              }
+            ],
+            "Type": "ProgramCard",
+            "SeriesTitle": "Skam",
+            "SeriesSlug": "skam",
+            "SeriesUrn": "urn:dr:mu:bundle:582f03846187a416740499ab",
+            "SeasonTitle": "Skam",
+            "SeasonSlug": "skam-3",
+            "SeasonUrn": "urn:dr:mu:bundle:582fa0346187a41674049e79",
+            "PrimaryChannel": "dr.dk/mas/whatson/channel/DR3",
+            "PrimaryChannelSlug": "dr3",
+            "PrePremiere": false,
+            "ExpiresSoon": true,
+            "OnlineGenreText": "",
+            "PrimaryAsset": {
+              "Kind": "VideoResource",
+              "Uri": "http://www.dr.dk/mu-online/api/1.3/bar/584ea1916187a410ec49a46f",
+              "DurationInMilliseconds": 1544320,
+              "Downloadable": false,
+              "RestrictedToDenmark": true,
+              "StartPublish": "2017-01-04T13:00:00Z",
+              "EndPublish": "2017-02-02T22:59:00Z",
+              "Target": "Default",
+              "Encrypted": false
+            },
+            "HasPublicPrimaryAsset": true,
+            "AssetTargetTypes": "Default SpokenSubtitles",
+            "Slug": "skam-ii-1-12",
+            "Urn": "urn:dr:mu:programcard:582fa0346187a41674049e77",
+            "PrimaryImageUri": "http://www.dr.dk/mu-online/api/1.3/bar/584a6f3ea11f9f0bb81d635f",
+            "PresentationUri": "https://www.dr.dk/tv/se/skam/skam-3/skam-ii-1-12",
+            "Title": "Skam II (1:12)"
+          }
+        ],
+        "Paging": {
+          "Source": "http://www.dr.dk/mu-online/api/1.3/list/view/season?id=skam-3&limit=1",
+          "Next": "http://www.dr.dk/mu-online/api/1.3/list/view/season?id=skam-3&limit=1&offset=1"
+        },
+        "TotalSize": 12
+      },
+      "Type": "Bundle",
+      "BundleType": "Season",
+      "Slug": "skam-3",
+      "Urn": "urn:dr:mu:bundle:582fa0346187a41674049e79",
+      "PrimaryImageUri": "http://www.dr.dk/mu-online/api/1.3/bar/helper/get-image-for-bundle/skam-3",
+      "Title": "Skam"
+    },
+    {
+      "SeasonNumber": 3,
+      "Episodes": {
+        "Items": [
+          {
+            "Description": "Norsk dramaserie.\nSlænget er begyndt i 2.g på Hartvig Nissen videregående skole i Oslo. Isak er millimeter fra at score den kønne Emma, men han er ikke for alvor interesseret. Han tumler med nogle følelser, han har svært ved at indrømme over for sig selv.",
+            "ProductionNumber": "00921705300",
+            "PrimaryBroadcastStartTime": "2017-01-18T21:15:00Z",
+            "PrimaryBroadcast": {
+              "BroadcastDate": "2017-01-18T00:00:00Z",
+              "AnnouncedStartTime": "2017-01-18T21:15:00Z",
+              "AnnouncedEndTime": "2017-01-18T21:40:00Z",
+              "ProductionCountry": "NORGE",
+              "ProductionYear": 2017,
+              "VideoWidescreen": true,
+              "SubtitlesTTV": true,
+              "VideoHD": true,
+              "WhatsOnUri": "dr.dk/mas/whatson/1209237201813",
+              "Channel": "dr.dk/mas/whatson/channel/DR3",
+              "ChannelSlug": "dr3",
+              "IsRerun": false
+            },
+            "Chapters": [],
+            "Type": "ProgramCard",
+            "SeriesTitle": "Skam",
+            "SeriesSlug": "skam",
+            "SeriesUrn": "urn:dr:mu:bundle:582f03846187a416740499ab",
+            "SeasonTitle": "SKAM III",
+            "SeasonSlug": "skam-iii",
+            "SeasonUrn": "urn:dr:mu:bundle:586e2380a11f9f0ce8f402c0",
+            "PrimaryChannel": "dr.dk/mas/whatson/channel/DR3",
+            "PrimaryChannelSlug": "dr3",
+            "PrePremiere": false,
+            "ExpiresSoon": false,
+            "OnlineGenreText": "",
+            "PrimaryAsset": {
+              "Kind": "VideoResource",
+              "Uri": "http://www.dr.dk/mu-online/api/1.3/bar/587a4b786187a40a78c1f435",
+              "DurationInMilliseconds": 1629520,
+              "Downloadable": false,
+              "RestrictedToDenmark": true,
+              "StartPublish": "2017-01-18T21:15:00Z",
+              "EndPublish": "2017-02-16T22:59:00Z",
+              "Target": "Default",
+              "Encrypted": false
+            },
+            "HasPublicPrimaryAsset": true,
+            "AssetTargetTypes": "Default",
+            "Slug": "skam-iii-1-10",
+            "Urn": "urn:dr:mu:programcard:586e2380a11f9f0ce8f402be",
+            "PrimaryImageUri": "http://www.dr.dk/mu-online/api/1.3/bar/587c9763a11f9f1608711022",
+            "PresentationUri": "https://www.dr.dk/tv/se/skam/skam-iii/skam-iii-1-10",
+            "Title": "Skam III (1:10)"
+          }
+        ],
+        "Paging": {
+          "Source": "http://www.dr.dk/mu-online/api/1.3/list/view/season?id=skam-iii&limit=1",
+          "Next": "http://www.dr.dk/mu-online/api/1.3/list/view/season?id=skam-iii&limit=1&offset=1"
+        },
+        "TotalSize": 10
+      },
+      "Type": "Bundle",
+      "BundleType": "Season",
+      "Slug": "skam-iii",
+      "Urn": "urn:dr:mu:bundle:586e2380a11f9f0ce8f402c0",
+      "PrimaryImageUri": "http://www.dr.dk/mu-online/api/1.3/bar/helper/get-image-for-bundle/skam-iii",
+      "Title": "SKAM III"
+    }
+  ],
+  "Paging": {
+    "Source": "http://www.dr.dk/mu-online/api/1.3/list/view/seasons?id=skam&limit=15"
+  },
+  "TotalSize": 3
+}
