@@ -11,15 +11,21 @@ function prepareSeasons(event, ui)
             // check lige om indholdes er bare lidt i orden...
             if (res.Items && res.TotalSize > 0)
             {
+                // fjern 'gamle' knapper
                 $('#seasons a').remove();
                 var newContent = '';
+                // gennemløb alle sæsoner i Items
                 for (var i in res.Items)
                 {
+                    // lav en ny "knap" for hver sæson
                     // <a href="#episodes" data-role="button" data-slug="">Sæson 1</a>
                     newContent += '<a href="#episodes" data-role="button" data-slug="'+res.Items[i].Slug+'">Sæson ' + res.Items[i].SeasonNumber + '</a>';
                 }
+                // tilføj knapperne til DOM'en
                 $(newContent).appendTo('#seasons');
+                // lad JQM forbedre htmlen
                 $('#seasons').enhanceWithin();
+                // tilføj event handler til hver knap
                 $('#seasons').one('click', prepareSeason);
             }
 
