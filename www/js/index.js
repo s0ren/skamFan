@@ -1,6 +1,6 @@
 /** Made 31-01-2017 **/
 
-function  prepareSeasons(event, ui)
+function prepareSeasons(event, ui)
 {
     console.log("ready to load Seasons");
 
