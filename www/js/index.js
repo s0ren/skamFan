@@ -101,9 +101,9 @@ function prepareDetail(event, ui)
                                 +  '<h2>'+ res.Title +'</h2>'
                                 +  '<p>'+ res.Description +'</p>'
                                 +  '<p>Clifhanger, Måske fra imdb</p>'
-                                +  '<a href="'+ res.PresentationUri +'">Se afnit på dr.dk</a>'
-                                +  '<br>'
-                                +  '<a href="http://www.imdb.com/title/tt5288312/">imdb site</a>'
+                                +  '<a data-role="button" href="'+ res.PresentationUri +'">Se afnit på dr.dk</a>'
+                                //+  '<br>'
+                                +  '<a data-role="button" href="http://www.imdb.com/title/tt5288312/">imdb site</a>'
                 //}
                 // tilføj knapperne til DOM'en
                 $(newContent).appendTo('#episodeDetails');
@@ -118,6 +118,11 @@ function prepareDetail(event, ui)
 
 $(document).ready( // når siden er loaded
     function(){
+
+        $(function(){
+            $( "[data-role='header'], [data-role='footer']" ).toolbar();
+        });
+
         var pageContainer = $("div#container").pagecontainer({
             beforeshow:
             function( event, ui){

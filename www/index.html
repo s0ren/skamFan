@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width">
-        <title>Blank App</title>
+        <title>Skam Fan App</title>
         
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -14,47 +14,54 @@
     </head>
     <body>
         
-        <div id="container">
-            <section id="landingpage" data-role="page">
+        <div id="container" >
+
+            <div data-role="header" data-position="fixed" data-theme="a">
+                <a href="#" data-role="button" data-icon="back" data-rel="back">Tilbage</a>
+                <h1>Skam Fan</h1>
+                <a href="/" data-role="button" data-icon="home" data-rel="home">Hjem</a>
+            </div>
+
+            <section id="landingpage" data-role="page" data-theme="b">
                 <a href="#seasons" data-role="button">Se alle skam sæsoner</a>
             </section>
-            <section id="seasons" data-role="page">
+            <section id="seasons" data-role="page" data-theme="b">
                 <a href="#episodes" data-role="button" data-slug="">Sæson 1</a>
                 <a href="#episodes" data-role="button">Sæson 2</a>
 
             </section>
-            <section id="episodes" data-role="page">
+            <section id="episodes" data-role="page" data-theme="b">
                 <div>
                     <a href="#episodeDetails">
-                        <img src="xxx">
+                        <img src="">
                         <h2>2 3-10</h2>
                         <h2>Jonas kysser Eva, men Noora ser det hele</h2>
                     </a>
                 </div>
                 <div>
                     <a href="#episodeDetails">
-                        <img src="xxx">
+                        <img src="">
                         <h2>2 3-10</h2>
                         <h2>Jonas kysser Eva, men Noora ser det hele</h2>
                     </a>
                 </div>
                 <div>
                     <a href="#episodeDetails">
-                        <img src="xxx">
+                        <img src="">
                         <h2>2 3-10</h2>
                         <h2>Jonas kysser Eva, men Noora ser det hele</h2>
                     </a>
                 </div>
                 <div>
                     <a href="#episodeDetails">
-                        <img src="xxx">
+                        <img src="">
                         <h2>2 3-10</h2>
                         <h2>Jonas kysser Eva, men Noora ser det hele</h2>
                     </a>
                 </div>
             </section>
-            <section id="episodeDetails" data-role="page">
-                <img src="xxx">
+            <section id="episodeDetails" data-role="page" data-theme="b">
+                <img src="">
                 <h2>2 3-10</h2>
                 <p>Jonas kysser Eva, men Noora ser det hele</p>
                 <p>Clifhanger text...</p>
@@ -63,13 +70,10 @@
             </section>
             
             <!--<section id="episodePlay" data-role="page"></section>-->
-            
+
         </div>
         
-        <section data-role="footer" data-position="fixed">
-          <h1>Fixed Footer</h1>
-        </section>
-        
+
         <script type="text/javascript" src="cordova.js"></script>
     </body>
 </html>
