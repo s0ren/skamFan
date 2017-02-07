@@ -3,6 +3,9 @@
 function prepareSeasons(event, ui)
 {
     console.log("ready to load Seasons");
+    $.mobile.loading( 'show', {});
+    // fjern 'gamle' knapper
+    $('#seasons a').remove();
 
     $.get("http://www.dr.dk/mu-online/api/1.3/list/view/seasons?id=skam&onlyincludefirstepisode=true&limit=15&offset=0",
         function(res, code) {
@@ -11,8 +14,6 @@ function prepareSeasons(event, ui)
             // check lige om indholdes er bare lidt i orden...
             if (res.Items && res.TotalSize > 0)
             {
-                // fjern 'gamle' knapper
-                $('#seasons a').remove();
                 var newContent = '';
                 // gennemløb alle sæsoner i Items
                 for (var i in res.Items)
@@ -30,12 +31,23 @@ function prepareSeasons(event, ui)
             }
 
         }
-    )
+    ).always(function () {
+        $.mobile.loading( 'hide', {});
+    })
 }
 
 function prepareSeason(event, ui)
 {
     console.log("Indlæser sæson " + this.dataset.slug );
+    $.mobile.loading( 'show',
+        {text: 'vent venligst',
+        textVisible: true,
+        theme: 'a',
+        textonly: false,
+        html: ''}
+    );
+    // fjern 'gamle' div'er
+    $('#episodes div').remove();
 
     $.get('http://www.dr.dk/mu-online/api/1.3/list/view/season?id='+ this.dataset.slug +'&limit=15&offset=0',
         function(res, code){
@@ -44,8 +56,6 @@ function prepareSeason(event, ui)
             // check lige om indholdes er bare lidt i orden...
             if (res.Items && res.TotalSize > 0)
             {
-                // fjern 'gamle' div'er
-                $('#episodes div').remove();
                 var newContent = '';
                 // gennemløb alle afsnit i Items
                 for (var i in res.Items) {
@@ -70,7 +80,9 @@ function prepareSeason(event, ui)
                 $('#episodes a').one('click', prepareDetail);
             }
         }
-    )
+    ).always(function () {
+        $.mobile.loading( 'hide', {});
+    })
 }
 
 function prepareDetail(event, ui)
@@ -80,13 +92,12 @@ function prepareDetail(event, ui)
     $.get('http://www.dr.dk/mu-online/api/1.3/programcard/?id='+ this.dataset.slug,
         function(res, code){
             console.debug(code + ": " + JSON.stringify(res));
+            // fjern 'gamle' markups
+            $('#episodeDetails *').remove();
 
             // check lige om indholdes er bare lidt i orden...
             if (res && res.ProductionNumber.length > 0)
             {
-                // fjern 'gamle' div'er
-                $('#episodeDetails *').remove();
-
                 var newContent = '';
                 // gennemløb alle afsnit i Items
                 //for (var i in res.Items) {
